@@ -1,0 +1,92 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+svg#logo {
+  width: 65px;
+}
+
+#header-logo {
+  height: 25vh;
+  position: absolute;
+  width: 25vw;
+}
+
+.bg-img-1 {
+  background-image: url("./public/carousel-1.jpg");
+}
+
+.bg-img-2 {
+  background-image: url("./public/carousel-2.jpg");
+}
+
+.bg-img-3 {
+  background-image: url("./public/carousel-3.jpg");
+}
+
+.carousel-image {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-image {
+  width: 25%;
+}
+
+
+#slogan-2 {
+  background: rgb(2 35 130);
+}
+
+.card-service,
+.card {
+  border: none;
+}
+
+.tech-logo {
+  max-width: 50px;
+}
+
+.mwi {
+  max-width: 75px;
+}
+
+#robot-gif {
+  max-width: 250px;
+}
+
+#linkedin,
+#github {
+  cursor: pointer;
+}
+
+#linkedin:hover {
+  fill: #0a66c2;
+}
+
+#github:hover {
+  fill: #0a66c2;
+}
+
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  
+  .fade-in {
+    animation: fade-in 5s ease;
+  }
+  
+  /* * {
+    outline: 1px solid #f00 !important;
+  } */
