@@ -1,1 +1,6 @@
-console.log("Welcome Pilgrim. You shouldn't be here. But I know where you can go...\nhttps://www.cicada3301.org/")
+
+const styledMessage = '%cCaution! Mischievous robots may be on the loose! 🤖';
+
+const styles = 'color: red; font-size: 18px;';
+
+console.log(styledMessage, styles);
