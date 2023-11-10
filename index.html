@@ -17,8 +17,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- #region START -->
-    <div id="carouselExampleCaptions" class="carousel slide">
+    <!-- #region NAVBAR MOBILE -->
+    <nav
+      class="navbar fixed-bottom navbar-expand-lg bg-body-tertiary d-block d-sm-none"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold">
+          <svg
+            id="logo-mobile"
+            class="svg-standalone-icon"
+            width="100%"
+            viewBox="218.12720219180528 115 113.74559561638944 135.08978101708968"
+          >
+            <g
+              data-paper-data='{"initialText":"BP","selectedEffects":{"container":"","transformation":"","pattern":""},"isIcon":"true","iconType":"initial","iconStyle":"standalone","rawInitialId":543,"monogramSpecial":"melted-letters","bounds":{"x":218.12720219180528,"y":115,"width":113.74559561638944,"height":135.08978101708968},"fillRule":"nonzero","suitableAsStandaloneIcon":true}'
+              fill-rule="nonzero"
+            >
+              <path
+                d="M252.71019,186.86776h18.37221c12.15808,0 19.31784,-3.10706 27.42323,-11.21245c4.59305,-4.86323 8.24048,-12.83353 8.24048,-25.26179c0,-3.78251 -0.54036,-10.80718 -2.7018,-15.8055c-4.45796,-11.34754 -14.45461,-19.58802 -29.85484,-19.58802h-32.82682v17.69676h11.34754v-7.83521h20.26347c7.56503,0 12.96862,3.9176 16.48095,7.83521c4.72814,5.53868 5.67377,13.10371 5.67377,17.96694c0,15.26515 -7.70012,26.4776 -23.37053,26.4776h-19.04766v-31.07065h-11.34754v104.01913h11.34754zM229.33965,144.31448h63.62729c-0.67545,-4.05269 -2.16144,-7.29485 -4.18778,-9.86155h-70.65196v99.02081h21.61436v-9.99664h-10.40191v-37.14969h10.40191v-9.32119h-10.40191zM315.12166,181.0589c10.26682,-3.64742 13.10371,-9.05102 13.10371,-20.26347c0,-9.99664 -2.02635,-15.94059 -6.88958,-20.53365c-3.64742,-3.37724 -7.70012,-4.86323 -15.40024,-5.53868c0.94563,2.29653 2.16144,9.05102 2.29653,11.48263c5.67377,2.16144 7.70012,6.75449 7.70012,14.72479c0,7.02467 -1.62108,11.34754 -5.13341,13.50898c-2.29653,1.48599 -4.86323,2.16144 -11.07736,2.43162c-2.29653,2.7018 -7.70012,7.02467 -13.64407,9.18611h3.9176l12.42826,0.67545c14.04934,1.08072 17.1564,5.2685 17.1564,17.83185c0,11.48263 -2.83689,16.48095 -12.56335,18.10203c-1.08072,0.27018 -9.45628,0.81054 -11.8879,0.81054h-40.66202v9.99664h46.06562c0.54036,0 5.40359,-0.27018 6.6194,-0.27018c7.83521,-0.81054 13.2388,-2.83689 17.56167,-6.88958c4.99832,-4.72814 7.15976,-11.34754 7.15976,-22.28981c0,-13.91425 -5.2685,-20.93892 -16.75113,-22.96526z"
+                data-paper-data='{"isPathIcon":true}'
+                style="fill: rgb(0, 0, 0)"
+              ></path>
+            </g>
+          </svg>
+          <!-- <span class="mx-2">Bruno Peselli</span> -->
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#technologies">Technologies</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- #endregion -->
+
+    <!-- #region START MD PLUS -->
+    <div id="mainCarousel" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item carousel-image bg-img-1 active">
           <div class="carousel-caption">
@@ -38,36 +87,37 @@
             <h4>lluminate business decisions with Data Analysis.</h4>
           </div>
         </div>
-
-        <div class="row" id="header-logo">
-          <div
-            class="col-12 text-center d-flex align-items-center flex-column justify-content-center"
-          >
-            <svg
-              id="logo"
-              class="svg-standalone-icon"
-              width="100%"
-              viewBox="218.12720219180528 115 113.74559561638944 135.08978101708968"
+        <div class="container">
+          <div class="row" id="header-logo">
+            <div
+              class="col-12 text-center d-flex align-items-center flex-column justify-content-center"
             >
-              <g
-                data-paper-data='{"initialText":"BP","selectedEffects":{"container":"","transformation":"","pattern":""},"isIcon":"true","iconType":"initial","iconStyle":"standalone","rawInitialId":543,"monogramSpecial":"melted-letters","bounds":{"x":218.12720219180528,"y":115,"width":113.74559561638944,"height":135.08978101708968},"fillRule":"nonzero","suitableAsStandaloneIcon":true}'
-                fill-rule="nonzero"
+              <svg
+                id="logo"
+                class="svg-standalone-icon"
+                width="100%"
+                viewBox="218.12720219180528 115 113.74559561638944 135.08978101708968"
               >
-                <path
-                  d="M252.71019,186.86776h18.37221c12.15808,0 19.31784,-3.10706 27.42323,-11.21245c4.59305,-4.86323 8.24048,-12.83353 8.24048,-25.26179c0,-3.78251 -0.54036,-10.80718 -2.7018,-15.8055c-4.45796,-11.34754 -14.45461,-19.58802 -29.85484,-19.58802h-32.82682v17.69676h11.34754v-7.83521h20.26347c7.56503,0 12.96862,3.9176 16.48095,7.83521c4.72814,5.53868 5.67377,13.10371 5.67377,17.96694c0,15.26515 -7.70012,26.4776 -23.37053,26.4776h-19.04766v-31.07065h-11.34754v104.01913h11.34754zM229.33965,144.31448h63.62729c-0.67545,-4.05269 -2.16144,-7.29485 -4.18778,-9.86155h-70.65196v99.02081h21.61436v-9.99664h-10.40191v-37.14969h10.40191v-9.32119h-10.40191zM315.12166,181.0589c10.26682,-3.64742 13.10371,-9.05102 13.10371,-20.26347c0,-9.99664 -2.02635,-15.94059 -6.88958,-20.53365c-3.64742,-3.37724 -7.70012,-4.86323 -15.40024,-5.53868c0.94563,2.29653 2.16144,9.05102 2.29653,11.48263c5.67377,2.16144 7.70012,6.75449 7.70012,14.72479c0,7.02467 -1.62108,11.34754 -5.13341,13.50898c-2.29653,1.48599 -4.86323,2.16144 -11.07736,2.43162c-2.29653,2.7018 -7.70012,7.02467 -13.64407,9.18611h3.9176l12.42826,0.67545c14.04934,1.08072 17.1564,5.2685 17.1564,17.83185c0,11.48263 -2.83689,16.48095 -12.56335,18.10203c-1.08072,0.27018 -9.45628,0.81054 -11.8879,0.81054h-40.66202v9.99664h46.06562c0.54036,0 5.40359,-0.27018 6.6194,-0.27018c7.83521,-0.81054 13.2388,-2.83689 17.56167,-6.88958c4.99832,-4.72814 7.15976,-11.34754 7.15976,-22.28981c0,-13.91425 -5.2685,-20.93892 -16.75113,-22.96526z"
-                  data-paper-data='{"isPathIcon":true}'
-                  style="fill: rgb(255, 255, 255)"
-                ></path>
-              </g>
-            </svg>
-            <h2 class="text-white">Bruno Peselli</h2>
+                <g
+                  data-paper-data='{"initialText":"BP","selectedEffects":{"container":"","transformation":"","pattern":""},"isIcon":"true","iconType":"initial","iconStyle":"standalone","rawInitialId":543,"monogramSpecial":"melted-letters","bounds":{"x":218.12720219180528,"y":115,"width":113.74559561638944,"height":135.08978101708968},"fillRule":"nonzero","suitableAsStandaloneIcon":true}'
+                  fill-rule="nonzero"
+                >
+                  <path
+                    d="M252.71019,186.86776h18.37221c12.15808,0 19.31784,-3.10706 27.42323,-11.21245c4.59305,-4.86323 8.24048,-12.83353 8.24048,-25.26179c0,-3.78251 -0.54036,-10.80718 -2.7018,-15.8055c-4.45796,-11.34754 -14.45461,-19.58802 -29.85484,-19.58802h-32.82682v17.69676h11.34754v-7.83521h20.26347c7.56503,0 12.96862,3.9176 16.48095,7.83521c4.72814,5.53868 5.67377,13.10371 5.67377,17.96694c0,15.26515 -7.70012,26.4776 -23.37053,26.4776h-19.04766v-31.07065h-11.34754v104.01913h11.34754zM229.33965,144.31448h63.62729c-0.67545,-4.05269 -2.16144,-7.29485 -4.18778,-9.86155h-70.65196v99.02081h21.61436v-9.99664h-10.40191v-37.14969h10.40191v-9.32119h-10.40191zM315.12166,181.0589c10.26682,-3.64742 13.10371,-9.05102 13.10371,-20.26347c0,-9.99664 -2.02635,-15.94059 -6.88958,-20.53365c-3.64742,-3.37724 -7.70012,-4.86323 -15.40024,-5.53868c0.94563,2.29653 2.16144,9.05102 2.29653,11.48263c5.67377,2.16144 7.70012,6.75449 7.70012,14.72479c0,7.02467 -1.62108,11.34754 -5.13341,13.50898c-2.29653,1.48599 -4.86323,2.16144 -11.07736,2.43162c-2.29653,2.7018 -7.70012,7.02467 -13.64407,9.18611h3.9176l12.42826,0.67545c14.04934,1.08072 17.1564,5.2685 17.1564,17.83185c0,11.48263 -2.83689,16.48095 -12.56335,18.10203c-1.08072,0.27018 -9.45628,0.81054 -11.8879,0.81054h-40.66202v9.99664h46.06562c0.54036,0 5.40359,-0.27018 6.6194,-0.27018c7.83521,-0.81054 13.2388,-2.83689 17.56167,-6.88958c4.99832,-4.72814 7.15976,-11.34754 7.15976,-22.28981c0,-13.91425 -5.2685,-20.93892 -16.75113,-22.96526z"
+                    data-paper-data='{"isPathIcon":true}'
+                    style="fill: rgb(255, 255, 255)"
+                  ></path>
+                </g>
+              </svg>
+              <h2 class="text-white">Bruno Peselli</h2>
+            </div>
           </div>
         </div>
       </div>
       <button
         class="carousel-control-prev"
         type="button"
-        data-bs-target="#carouselExampleCaptions"
+        data-bs-target="#mainCarousel"
         data-bs-slide="prev"
       >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,7 +126,7 @@
       <button
         class="carousel-control-next"
         type="button"
-        data-bs-target="#carouselExampleCaptions"
+        data-bs-target="#mainCarousel"
         data-bs-slide="next"
       >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -85,80 +135,92 @@
     </div>
     <!-- #endregion -->
 
-    <!-- #region SLOGAN 1 -->
-    <div class="container-fluid">
+    <!-- #region SLOGAN 1 MOBILE -->
+    <div id="home" class="container-fluid d-block d-sm-none">
       <div
-      class="row d-flex text-white py-5 justify-content-center align-items-center bg-dark"
-      id="slogan-1"
-    >
-      <div class="row col-12 text-center">
-        <h1>Automate. Simplify. Succeed.</h1>
+        class="row d-flex text-white py-5 justify-content-center align-items-center bg-dark"
+        id="slogan-1"
+      >
+        <div class="row col-12 text-center mt-2">
+          <h1>Automate. Simplify. Succeed.</h1>
+        </div>
       </div>
     </div>
+
+    <!-- #region SLOGAN 1 START MD PLUS -->
+    <div class="container-fluid d-none d-sm-block">
+      <div
+        class="row d-flex text-white py-5 justify-content-center align-items-center bg-dark"
+        id="slogan-1"
+      >
+        <div class="row col-12 text-center">
+          <h1>Automate. Simplify. Succeed.</h1>
+        </div>
+      </div>
     </div>
-    
+
     <!-- #endregion -->
 
     <!-- #region ABOUT -->
     <div class="container-fluid">
       <div class="row d-flex my-5 justify-content-center align-items-center">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-12 text-center">
             <h1 class="text-primary-emphasis mb-5">About</h1>
           </div>
-        </div>
-  
-        <img id="robot-gif" src="./public/robot.gif" class="mb-5" />
-  
+        </div> -->
+
+        <img id="robot-gif" src="./public/robot.gif" class="mb-5 d-none d-sm-block" />
+
         <div class="row d-flex justify-content-evenly align-items-stretch">
-          <div class="mb-3 col-12 col-md-4 col-lg-2">
+          <div  id="about"
+            class="mb-3 col-12 col-md-4 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
             <img src="./public/male.png" class="card-img-top mwi" alt="..." />
             <div class="mt-3">
-              <h5 class="card-title">About Me</h5>
+              <h5 class="card-title text-center mb-2">About</h5>
               <p class="card-text">
                 I'm a results-driven RPA Developer with a passion for automation
-                and a track record of delivering innovative solutions. My journey
-                in the world of technology is powered by a commitment to
-                continuous learning and a drive to make processes more efficient.
+                and a track record of delivering innovative solutions. My
+                journey in the world of technology is powered by a commitment to
+                continuous learning and a drive to make processes more
+                efficient.
               </p>
             </div>
           </div>
-  
-          <div class="mb-3 col-12 col-md-4 col-lg-2">
+
+          <div
+            class="mb-3 col-12 col-md-4 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
             <img
               src="./public/experience.png"
               class="card-img-top mwi"
               alt="..."
             />
             <div class="mt-3">
-              <h5 class="card-title">Experience</h5>
+              <h5 class="card-title text-center mb-2">Experience</h5>
               <p class="card-text">
-                Holding the UiPath RPA Developer Advanced certification, I bring a
-                wealth of knowledge and expertise in Robotic Process Automation.
-                I've had the privilege of working at Stefanini, where I've been
-                involved in transformative projects for leading companies such as
-                Santander, BMW and more.
+                I bring
+                a wealth of knowledge and expertise in Robotic Process
+                Automation. I've had the privilege of working at Stefanini,
+                where I've been involved in transformative projects for leading
+                companies such as Santander, BMW and more.
               </p>
             </div>
           </div>
-  
-          <div class="mb-3 col-12 col-md-4 col-lg-2">
-            <img src="./public/tech.png" class="card-img-top mwi" alt="..." />
+
+          
+
+          <div
+            class="mb-3 col-12 col-md-4 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img
+              src="./public/diploma.png"
+              class="card-img-top mwi"
+              alt="..."
+            />
             <div class="mt-3">
-              <h5 class="card-title">Technologies</h5>
-              <p class="card-text">
-                I have a diverse skill set that encompasses various programming
-                languages, with Python and JavaScript being my specialties.
-                Whether it's automating repetitive tasks or creating complex
-                algorithms, I'm always up for a challenge.
-              </p>
-            </div>
-          </div>
-  
-          <div class="mb-3 col-12 col-md-4 col-lg-2">
-            <img src="./public/diploma.png" class="card-img-top mwi" alt="..." />
-            <div class="mt-3">
-              <h5 class="card-title">Education</h5>
+              <h5 class="card-title text-center mb-2">Education</h5>
               <p class="card-text">
                 I hold a degree in Analysis and Systems Development from the
                 Universidade Municipal de São Caetano do Sul, which has equipped
@@ -167,14 +229,16 @@
               </p>
             </div>
           </div>
-  
-          <div class="card col-12 col-md-4 col-lg-2">
+
+          <div
+            class="card col-12 col-md-4 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
             <img src="./public/globe.png" class="card-img-top mwi" alt="..." />
             <div class="mt-3">
-              <h5 class="card-title">Languages</h5>
+              <h5 class="card-title text-center mb-2">Languages</h5>
               <p class="card-text">
                 Fluent in English, I'm comfortable working in multicultural
-                environments and collaborating with international teams.
+                environments and collaborating with international teams. I'm also a native Portuguese speaker.
               </p>
             </div>
           </div>
@@ -182,32 +246,31 @@
       </div>
     </div>
 
-    
     <!-- #endregion -->
 
     <!-- #region SLOGAN 2 -->
     <div class="container-fluid">
       <div
-      class="row d-flex text-white py-5 justify-content-center align-items-center"
-      id="slogan-2"
-    >
-      <div class="row col-12 text-center">
-        <h1>Redefining productivity with RPA expertise.</h1>
+        class="row d-flex text-white py-5 justify-content-center align-items-center"
+        id="slogan-2"
+      >
+        <div class="row col-12 text-center">
+          <h1>Redefining productivity with RPA expertise.</h1>
+        </div>
       </div>
     </div>
-    </div>
-    
+
     <!-- #endregion -->
 
     <!-- #region SERVICES -->
-    <div class="container-fluid">
+    <div id="services" class="container-fluid">
       <div class="row py-5 justify-content-center align-items-center">
         <div class="row mt-2">
           <div class="col-12 text-center">
             <h1 class="mb-5">Services</h1>
           </div>
         </div>
-  
+
         <div class="row d-flex justify-content-evenly align-items-stretch">
           <div class="card card-service" style="width: 10rem">
             <img src="./public/automation.png" class="card-img-top" />
@@ -215,14 +278,14 @@
               <p class="card-title text-center fw-bold">Process Automation</p>
             </div>
           </div>
-  
+
           <div class="card card-service" style="width: 10rem">
             <img src="./public/bot.png" class="card-img-top" />
             <div class="card-body">
               <p class="card-title text-center fw-bold">Bot Development</p>
             </div>
           </div>
-  
+
           <div class="card card-service" style="width: 10rem">
             <img src="./public/support.png" class="card-img-top" />
             <div class="card-body">
@@ -231,7 +294,7 @@
               </p>
             </div>
           </div>
-  
+
           <div class="card card-service" style="width: 10rem">
             <img src="./public/ai.png" class="card-img-top" />
             <div class="card-body">
@@ -241,158 +304,171 @@
         </div>
       </div>
     </div>
-    
+
     <!-- #endregion -->
 
     <!-- #region TECHNOLOGIES -->
-    <div class="container-fluid">
+    <div id="technologies" class="container-fluid">
       <div
-      class="row d-flex text-white py-5 justify-content-center align-items-center bg-dark"
-    >
-      <div class="row col-12 text-center mb-5">
-        <h1>Technologies</h1>
-      </div>
-
-      <div class="row d-flex justify-content-center">
-        <div class="col-12 col-md-6 col-lg-2">
-          <img class="tech-logo" src="./public/ui-path.png" />
-          <h4 class="my-3">UiPath</h4>
-          <p>
-            I am a certified UiPath RPA Developer Advanced, equipped with the
-            highest level of expertise in the field of Robotic Process
-            Automation (RPA). With a focus on efficiency and innovation, I
-            harness the full potential of UiPath to create cutting-edge
-            automation solutions for businesses, ensuring seamless,
-            cost-effective, and high-impact processes.
-          </p>
+        class="row d-flex text-white py-5 justify-content-center align-items-center bg-dark"
+      >
+        <div class="row col-12 text-center mb-5">
+          <h1>Technologies</h1>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-2">
-          <img class="tech-logo" src="./public/python.png" />
-          <h4 class="my-3">Python</h4>
-          <p>
-            As a Python specialist, I leverage the language's versatility and
-            power to develop custom automation solutions, streamline processes,
-            and tackle complex challenges. With a strong command of Python, I
-            create efficient and tailored automation scripts, helping businesses
-            achieve their automation goals.
-          </p>
-        </div>
+        <div class="row d-flex justify-content-center">
+          <div
+            class="col-12 col-md-6 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img class="tech-logo" src="./public/ui-path.png" />
+            <h4 class="my-3">UiPath</h4>
+            <p>
+              I am a certified UiPath RPA Developer Advanced, equipped with the
+              highest level of expertise in the field of Robotic Process
+              Automation (RPA). With a focus on efficiency and innovation, I
+              harness the full potential of UiPath to create cutting-edge
+              automation solutions for businesses, ensuring seamless,
+              cost-effective, and high-impact processes.
+            </p>
+          </div>
 
-        <div class="col-12 col-md-6 col-lg-2">
-          <img class="tech-logo" src="./public/js.png" />
-          <h4 class="my-3">JavaScript</h4>
-          <p>
-            With a strong command of JavaScript, I enhance user interfaces and
-            develop web-based automation solutions. I use JavaScript to create
-            dynamic and responsive web applications, contributing to a seamless
-            and efficient user experience.
-          </p>
-        </div>
+          <div
+            class="col-12 col-md-6 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img class="tech-logo" src="./public/python.png" />
+            <h4 class="my-3">Python</h4>
+            <p>
+              As a Python specialist, I leverage the language's versatility and
+              power to develop custom automation solutions, streamline
+              processes, and tackle complex challenges. With a strong command of
+              Python, I create efficient and tailored automation scripts,
+              helping businesses achieve their automation goals.
+            </p>
+          </div>
 
-        <div class="col-12 col-md-6 col-lg-2">
-          <img class="tech-logo" src="./public/pad.png" />
-          <h4 class="my-3">Power Automate Desktop</h4>
-          <p>
-            I specialize in Power Automate Desktop, using this intuitive and
-            powerful tool to automate a wide range of tasks. With expertise in
-            Power Automate Desktop, I drive process efficiency and productivity
-            by creating custom automation workflows tailored to your business
-            needs.
-          </p>
-        </div>
+          <div
+            class="col-12 col-md-6 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img class="tech-logo" src="./public/js.png" />
+            <h4 class="my-3">JavaScript</h4>
+            <p>
+              With a strong command of JavaScript, I enhance user interfaces and
+              develop web-based automation solutions. I use JavaScript to create
+              dynamic and responsive web applications, contributing to a
+              seamless and efficient user experience.
+            </p>
+          </div>
 
-        <div class="col-12 col-md-6 col-lg-2">
-          <img class="tech-logo" src="./public/selenium.png" />
-          <h4 class="my-3">Selenium</h4>
-          <p>
-            With a strong grasp of Selenium, I develop automated tests and web
-            scraping solutions to ensure software quality and gather valuable
-            data from the web. My Selenium skills enable me to create efficient
-            and effective automation scripts for diverse applications, enhancing
-            test automation and data extraction.
-          </p>
+          <div
+            class="col-12 col-md-6 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img class="tech-logo" src="./public/pad.png" />
+            <h4 class="my-3 text-center">Power Automate Desktop</h4>
+            <p>
+              I specialize in Power Automate Desktop, using this intuitive and
+              powerful tool to automate a wide range of tasks. With expertise in
+              Power Automate Desktop, I drive process efficiency and
+              productivity by creating custom automation workflows tailored to
+              your business needs.
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-md-6 col-lg-2 text-justify d-flex align-items-center flex-column"
+          >
+            <img
+              id="selenium-logo"
+              class="tech-logo"
+              src="./public/selenium.png"
+            />
+            <h4 class="my-3">Selenium</h4>
+            <p>
+              With a strong grasp of Selenium, I develop automated tests and web
+              scraping solutions to ensure software quality and gather valuable
+              data from the web. My Selenium skills enable me to create
+              efficient and effective automation scripts for diverse
+              applications, enhancing test automation and data extraction.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    
 
     <!-- #endregion -->
 
     <!-- #region SLOGAN 3 -->
     <div class="container-fluid">
       <div
-      class="row bg-light d-flex text-white py-5 justify-content-center align-items-center"
-      id="slogan-3"
-    >
-      <div class="row col-12 text-center text-dark">
-        <h1>The future is automated, are you?</h1>
+        class="row bg-light d-flex text-white py-5 justify-content-center align-items-center"
+        id="slogan-3"
+      >
+        <div class="row col-12 text-center text-dark">
+          <h1>The future is automated, are you?</h1>
+        </div>
       </div>
     </div>
-    </div>
-    
+
     <!-- #endregion -->
 
     <!-- #region FOOTER -->
-    <div class="container-fluid">
+    <div id="contact" class="container-fluid">
       <div
-      class="row d-flex py-5 justify-content-center align-items-center bg-dark"
-    >
-      <!-- <div class="row col-12 text-center mb-5">
-        <h1>Get in touch</h1>
-      </div> -->
-
-      <div class="d-flex justify-content-center align-items-stretch">
-        <div
-          class="d-flex justify-content-center mx-2 flex-column align-items-center"
-        >
-          <a href="https://www.linkedin.com/in/brunopeselli/" target="_blank">
-            <svg
-              id="linkedin"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              data-supported-dps="24x24"
-              fill="white"
-              class="mercado-match"
-              width="50"
-              height="50"
-              focusable="false"
-            >
-              <path
-                d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
-              ></path>
-            </svg>
-          </a>
-          <div class="text-white mt-2">LinkedIn</div>
+        class="row d-flex py-5 justify-content-center align-items-center bg-dark"
+      >
+        <div class="row col-12 text-center text-white mb-5">
+          <h1>Contact</h1>
         </div>
 
-        <div
-          class="d-flex justify-content-center mx-2 flex-column align-items-center"
-        >
-          <a href="https://github.com/pzzzl" target="_blank">
-            <svg
-              id="github"
-              aria-hidden="true"
-              viewBox="0 0 16 16"
-              version="1.1"
-              width="50"
-              height="50"
-              data-view-component="true"
-              class="octicon octicon-mark-github v-align-middle color-fg-default"
-              fill="white"
-            >
-              <path
-                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
-              ></path>
-            </svg>
-          </a>
-          <div class="text-white mt-2">GitHub</div>
+        <div class="d-flex justify-content-center align-items-stretch mb-5">
+          <div
+            class="d-flex justify-content-center mx-2 flex-column align-items-center"
+          >
+            <a href="https://www.linkedin.com/in/brunopeselli/" target="_blank">
+              <svg
+                id="linkedin"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                data-supported-dps="24x24"
+                fill="white"
+                class="mercado-match"
+                width="50"
+                height="50"
+                focusable="false"
+              >
+                <path
+                  d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+                ></path>
+              </svg>
+            </a>
+            <div class="text-white mt-2">LinkedIn</div>
+          </div>
+
+          <div
+            class="d-flex justify-content-center mx-2 flex-column align-items-center"
+          >
+            <a href="https://github.com/pzzzl" target="_blank">
+              <svg
+                id="github"
+                aria-hidden="true"
+                viewBox="0 0 16 16"
+                version="1.1"
+                width="50"
+                height="50"
+                data-view-component="true"
+                class="octicon octicon-mark-github v-align-middle color-fg-default"
+                fill="white"
+              >
+                <path
+                  d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+                ></path>
+              </svg>
+            </a>
+            <div class="text-white mt-2">GitHub</div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    
+
     <!-- #endregion -->
 
     <script
@@ -400,6 +476,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

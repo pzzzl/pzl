@@ -9,6 +9,10 @@ svg#logo {
   width: 65px;
 }
 
+svg#logo-mobile {
+    width: 35px;
+}
+
 #header-logo {
   height: 25vh;
   position: absolute;
@@ -38,7 +42,6 @@ svg#logo {
   width: 25%;
 }
 
-
 #slogan-2 {
   background: rgb(2 35 130);
 }
@@ -50,6 +53,10 @@ svg#logo {
 
 .tech-logo {
   max-width: 50px;
+}
+
+.tech-logo#selenium-logo {
+  max-height: 50px;
 }
 
 .mwi {
@@ -74,19 +81,23 @@ svg#logo {
 }
 
 @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 
-  
-  .fade-in {
-    animation: fade-in 5s ease;
-  }
-  
-  /* * {
+.fade-in {
+  animation: fade-in 5s ease;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/*   
+  * {
     outline: 1px solid #f00 !important;
   } */
