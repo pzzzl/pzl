@@ -102,9 +102,24 @@ svg#logo-mobile {
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
   .carousel-caption {
-    top: 55vh;
+    top: 40vh;
     bottom: auto;
   }
+
+  .carousel-item.carousel-image.bg-overlay {
+    position: relative;
+}
+
+.carousel-item.carousel-image.bg-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75); /* Ajuste a opacidade conforme necessário */
+    /* z-index: -1; */
+}
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
