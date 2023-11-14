@@ -1,4 +1,4 @@
-const hideCarouselOnMobile = true;
+const hideCarouselOnMobile = false;
 const carousel = document.getElementById("mainCarousel");
 
 function displayFunnyMessage() {
