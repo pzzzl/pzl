@@ -20,15 +20,15 @@ svg#logo-mobile {
 }
 
 .bg-img-1 {
-  background-image: url("./public/carousel-1.jpg");
+  background-image: url("./public/carousel/carousel-1.jpg");
 }
 
 .bg-img-2 {
-  background-image: url("./public/carousel-2.jpg");
+  background-image: url("./public/carousel/carousel-2.jpg");
 }
 
 .bg-img-3 {
-  background-image: url("./public/carousel-3.jpg");
+  background-image: url("./public/carousel/carousel-3.jpg");
 }
 
 .carousel-image {
@@ -97,6 +97,21 @@ svg#logo-mobile {
   text-align: justify;
 }
 
+.carousel-item.carousel-image.bg-overlay {
+  position: relative;
+}
+
+.carousel-item.carousel-image.bg-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
 
 
 /* Extra small devices (phones, 575px and down) */
@@ -106,20 +121,10 @@ svg#logo-mobile {
     bottom: auto;
   }
 
-  .carousel-item.carousel-image.bg-overlay {
-    position: relative;
-}
-
-.carousel-item.carousel-image.bg-overlay::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.75); /* Ajuste a opacidade conforme necessário */
-    /* z-index: -1; */
-}
+  .carousel-item.carousel-image.bg-overlay::before {
+    
+    background-color: rgba(0, 0, 0, 0.75);
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
