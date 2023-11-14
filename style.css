@@ -102,7 +102,7 @@ svg#logo-mobile {
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
   .carousel-caption {
-    top: 65vh;
+    top: 55vh;
     bottom: auto;
   }
 }
