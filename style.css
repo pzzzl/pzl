@@ -132,6 +132,11 @@ svg#logo-mobile {
   color: rgb(2 35 130);
 }
 
+/* Elementos animados ao rolar */
+.animate-on-scroll {
+  opacity: 0;
+}
+
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
   .carousel-caption {

@@ -11,3 +11,16 @@ $(document).ready(function () {
     $(".navbar-collapse").collapse("hide");
   });
 });
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate__animated", "animate__fadeInLeft");
+      entry.target.offsetWidth;
+    }
+  });
+});
+
+document.querySelectorAll(".animate-on-scroll").forEach((element) => {
+  observer.observe(element);
+});
