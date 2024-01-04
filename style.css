@@ -141,6 +141,10 @@ ul#summary {
   list-style: none;
 }
 
+img#rpa-on-mobile-devices {
+  max-width: 750px;
+}
+
 /* Extra small devices (phones, 575px and down) */
 @media only screen and (max-width: 575px) {
   .carousel-caption {
